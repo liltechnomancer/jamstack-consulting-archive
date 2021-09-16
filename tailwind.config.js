@@ -8,5 +8,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('tailwindcss-hero-patterns'),],
+  plugins: [
+    // require('tailwindcss-hero-patterns'),
+  ],
 }
