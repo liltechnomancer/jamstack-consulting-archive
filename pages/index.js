@@ -1,70 +1,27 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <main className="h-screen ">
+        <div className="h-full bg-red-400 relative flex column justify-center overflow-hidden">
+          <h1 className="z-10 max-w-2xl text-5xl text-center font-black text-yellow-300 mt-60">Most websites are built on technology from when Blockbuster was still renting VHS.</h1>
+          {/* <div class="flex m-2 relative w-40 h-40 sm:pb-0 sm:w-48 sm:h-48 "   ></div> */}
+          {/* <div class="bg-repeat w-full h-full text-primary-100 heropattern-wiggle-red-100" >
+              <div style="text-shadow: 0 0 4px hsla(0, 0%, 0%, 1)" class="text-sm inline" >heropattern-wiggle-red-500</div>
+            </div></div> */}
+          <div className="z-0 absolute inset-0 transform scale-150 heropattern-wiggle-red-500" />
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+          <Image src="/wave-haikei.svg" width="100px" height="100px" layout="fill" objectFit="cover" />
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
-      </main>
+      </main >
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
@@ -77,6 +34,6 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
         </a>
       </footer>
-    </div>
+    </div >
   )
 }
