@@ -13,7 +13,7 @@ export default function Home() {
       <main className="h-full">
         <section className="h-full relative max-w-full m-auto">
           <div className="h-full flex items-center justify-center overflow-visible">
-            <h1 className="z-10 relative w-64 md:w-max md:max-w-2xl text-4xl -mt-32 md:-mt-52 md:text-5xl font-black text-yellow-300">
+            <h1 className="z-10 relative w-64 md:w-max md:max-w-2xl text-4xl -mt-32 md:-mt-52 md:text-5xl font-Azo-Sans font-black text-yellow-300">
               Most websites are built on technology from when Blockbuster was{" "}
               <br /> still renting VHS.
             </h1>
@@ -46,10 +46,10 @@ export default function Home() {
           className="h-full py-10"
         >
           <div className="text-white max-w-2xl m-auto">
-            <h2 style={{ color: "#00ebc7" }} className="text-3xl font-black">
+            <h2 style={{ color: "#00ebc7" }} className="text-3xl font-Azo-Sans font-black">
               A lot has changed since 2003
             </h2>
-            <p className="text-xl font-black">
+            <p className="text-xl font-Azo-Sans font-black">
               Maybe your webstack should change too.
             </p>
           </div>

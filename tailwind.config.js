@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Azo Sans': ['azo-sans-web', 'sans-serif'],
+        'Azo-Sans': ['azo-sans-web', 'sans-serif'],
         'Bello': ['bello-pro'],
       }
     },
