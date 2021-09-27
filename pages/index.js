@@ -14,7 +14,7 @@ export default function Home() {
         <section className="h-full relative max-w-full m-auto">
           <div className="overflow-visible flex flex-row justify-between">
             <h1 className="font-Bello p-2 z-10 text-white text-xl">Jamstack.consulting</h1>
-            {/* <button style={{ backgroundColor: "#00ebc7" }} className="z-10 p-2 font-bold m-2 rounded-full font-Azo-Sans text-white ">See the future</button> */}
+            <button style={{ backgroundColor: "#00ebc7" }} className="z-10 p-2 font-bold m-2 rounded-full font-Azo-Sans text-white ">See the future</button>
           </div>  
           <div className="h-full flex items-center justify-center overflow-visible">
             <h1 className="z-10 relative w-64 md:w-max md:max-w-2xl text-4xl -mt-32 md:-mt-52 md:text-5xl font-Azo-Sans font-black text-yellow-300">
