@@ -84,9 +84,7 @@ export default function Home() {
           </div>
         </section>
         <section style={{ backgroundColor: "#00ebc7" }} className="h-full">
-          <div>
-
-          </div>
+          
         </section>
       </main>
     </div>
