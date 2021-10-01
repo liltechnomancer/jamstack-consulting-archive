@@ -39,7 +39,7 @@ export default function Home() {
         </section>
         <section
           style={{ backgroundColor: "#111827" }}
-          className="h-full py-10"
+          className="h-full py-10 relative"
           layout="fill"
         >
           <div className="text-white max-w-2xl m-auto">
@@ -69,13 +69,21 @@ export default function Home() {
               Contact an expert
             </button>
           </div>
+          <div class="custom-shape-divider-bottom-1633122068 absolute bottom-0">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
         </section>
-        <section
-          style={{ backgroundColor: "#00ebc7" }}
-          className="h-full transform skew-y-12 overflow-y: visible"
-          layout="fill"
-          objectFit="cover"
-        ></section>
+        <section></section>
       </main>
     </div>
   );
