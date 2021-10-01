@@ -83,7 +83,11 @@ export default function Home() {
             </svg>
           </div>
         </section>
-        <section></section>
+        <section style={{ backgroundColor: "#00ebc7" }} className="h-full">
+          <div>
+
+          </div>
+        </section>
       </main>
     </div>
   );
