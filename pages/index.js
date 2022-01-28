@@ -7,31 +7,27 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://use.typekit.net/waf0vus.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/waf0vus.css" />
       </Head>
 
       <main className="h-full">
         <section className="h-full relative max-w-full m-auto">
+          <div className="overflow-visible flex p-2 flex-row justify-between">
+            <h1 className="font-Bello p-2 z-10 text-white text-2xl">
+              Jamstack.consulting
+            </h1>
+            <button
+              style={{ backgroundColor: "#00ebc7" }}
+              className="z-10 p-2 font-bold m-2 rounded-full font-Azo-Sans text-white"
+            >
+              See the future
+            </button>
+          </div>
           <div className="h-full flex items-center justify-center overflow-visible">
             <h1 className="z-10 relative w-64 md:w-max md:max-w-2xl text-4xl -mt-32 md:-mt-52 md:text-5xl font-Azo-Sans font-black text-yellow-300">
               Most websites are built on technology from when Blockbuster was{" "}
               <br /> still renting VHS.
             </h1>
-            {/* <div className="z-0 -top-full absolute inset-0">
-              <svg
-                className="flex m-0 overflow-visible"
-                viewBox="0 0 200 200"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill="#FF0066"
-                  d="M41.7,-63C53.9,-56.9,63.8,-45.3,65.5,-32.6C67.1,-19.9,60.5,-6.1,54.2,4.7C47.9,15.5,41.9,23.3,35.5,31C29.2,38.7,22.5,46.4,13.1,52.8C3.7,59.2,-8.4,64.5,-22.3,65.3C-36.3,66.1,-52.1,62.5,-59.4,52.4C-66.7,42.3,-65.5,25.8,-68.9,9.3C-72.2,-7.3,-80.2,-23.8,-75.4,-34.5C-70.6,-45.3,-53.1,-50.4,-38.4,-55.3C-23.7,-60.2,-11.9,-65,1.4,-67.2C14.7,-69.4,29.4,-69,41.7,-63Z"
-                  transform="translate(90 100) scale(1.5, 1.2) rotate(30)"
-                />
-              </svg>
-            </div> */}
-
             <div className="z-0 absolute inset-0 hero-pattern" />
           </div>
           <Image
@@ -43,30 +39,54 @@ export default function Home() {
         </section>
         <section
           style={{ backgroundColor: "#111827" }}
-          className="h-full py-10"
+          className="h-full py-10 relative"
+          layout="fill"
         >
           <div className="text-white max-w-2xl m-auto">
-            <h2 style={{ color: "#00ebc7" }} className="text-3xl font-Azo-Sans font-black">
+            <h2
+              style={{ color: "#00ebc7" }}
+              className="text-3xl font-Azo-Sans font-black"
+            >
               A lot has changed since 2003
             </h2>
             <p className="text-xl font-Azo-Sans font-black">
               Maybe your webstack should change too.
             </p>
+            <p className="text-xl font-Azo-Sans pt-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              finibus orci non cursus interdum. Sed rutrum lobortis lectus.
+              Suspendisse consequat nulla ut malesuada lobortis. Integer lacinia
+              neque at purus condimentum maximus. Ut lacinia turpis et leo
+              ornare tincidunt at sit amet enim. Proin vulputate consectetur
+              tellus sed fermentum. Sed lectus dui, maximus vitae rhoncus at,
+              viverra a dui. Etiam placerat magna quis libero consectetur
+              tempor.
+            </p>
+            <button
+              style={{ backgroundColor: "#00ebc7" }}
+              className="z-10 p-2 mt-8 font-bold rounded-full font-Azo-Sans text-white"
+            >
+              Contact an expert
+            </button>
+          </div>
+          <div class="custom-shape-divider-bottom-1633122068 absolute bottom-0">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+                class="shape-fill"
+              ></path>
+            </svg>
           </div>
         </section>
+        <section style={{ backgroundColor: "#00ebc7" }} className="h-full">
+          
+        </section>
       </main>
-
-      {/* <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer> */}
     </div>
   );
 }
